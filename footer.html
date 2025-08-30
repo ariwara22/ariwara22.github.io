@@ -1,3 +1,11 @@
 <!--ここから共通フッター-->
-    ©2023 ariwara tsukasa
+<!--     ©2023 ariwara tsukasa -->
+<footer>
+  <p>© <span id="year"></span> ariwara tsukasa</p>
+</footer>
+
+<script>
+  // 現在の年を取得して、#year に挿入
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 <!--ここまで共通フッター-->
